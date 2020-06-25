@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faseya</title>
+    <script src="./js/app.js" type="module"></script>
+    <style>
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          transition: 0.3s;
+          width: 40%;
+        }
+        
+        .card:hover {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        
+        .container {
+          padding: 2px 16px;
+        }
+
+        .row {
+            display: flex;
+        }
+        </style>
+</head>
+<body>
+    <div class="row">
+        <div class="card" id="first_card">
+            <img src="img_avatar.png" alt="Avatar" style="width:100% ; height: 300px;">
+            <div class="container">
+                <p id="first_nom"></p>
+                <p id="first_prenom"></p> 
+            </div>
+          </div>
+
+          <div class="card" id="second_card">
+            <img src="img_avatar.png" alt="Avatar" style="width:100% ; height: 300px;">
+            <div class="container">
+                <p id="second_nom"></p>
+                <p id="second_prenom"></p> 
+            </div>
+          </div>
+
+          <div class="card" id="three_card">
+            <img src="img_avatar.png" alt="Avatar" style="width:100% ; height: 300px;">
+            <div class="container">
+                <p id="three_nom"></p>
+                <p id="three_prenom"></p> 
+            </div>
+          </div>
+
+
+    </div>
+</body>
+</html>
